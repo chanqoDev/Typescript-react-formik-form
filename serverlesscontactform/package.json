@@ -2,9 +2,15 @@
   "name": "serverlesscontactform",
   "description": "",
   "version": "0.1.0",
-  "dependencies": {},
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.6.2",
+    "formik": "^2.2.9"
+  },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.92",
+    "@types/material-ui": "^0.21.12",
     "serverless": "^3.1.1",
     "serverless-plugin-typescript": "^2.1.1",
     "typescript": "^4.5.5"
