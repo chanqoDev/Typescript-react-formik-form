@@ -1,10 +1,14 @@
-import React from 'react';
-import './App.css';
+import * as React from "react";
+import './App.css'; 
+import Button  from '@mui/material/Button'; 
+import { MyForm } from "./components/MyForm";
+ 
 
-function App() {
+const App = () => { 
   return (
-    <div style={{textAlign:"center", fontSize:30}}>
-      Hello world
+    <div style={{textAlign:"center"}}>
+    <Button variant="outlined"> Submit </Button> 
+    <MyForm onSubmit={() => {}} /> 
     </div>
   );
 }
