@@ -2,6 +2,7 @@ import * as React from "react";
 import './App.css'; 
 import { MyForm } from "./components/MyForm";
 import  ResponsiveAppBar from "./components/AppBar"; 
+import CardAlbum from "./components/CardAlbum";
 
 const App = () => { 
   return (
@@ -11,6 +12,7 @@ const App = () => {
     console.log(email, firstName, lastName, phoneNumber)
     }}
     /> 
+    <CardAlbum /> 
     </div>
   );
 }
