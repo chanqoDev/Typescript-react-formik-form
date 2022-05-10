@@ -35,7 +35,7 @@ onSubmit={(values) => {
     </div>
     <Button type="submit" variant="contained" style={{marginTop: "30px"}}>Submit</Button>
     <Button type="submit" variant="outlined" color="error" style={{marginTop: "30px", marginLeft: "5px"}}>Delete</Button>
-    <pre> {JSON.stringify(values, null, 2)}</pre>
+    {/* <pre> {JSON.stringify(values, null, 2)}</pre> */}
     </Form>
   )}
   </Formik>
