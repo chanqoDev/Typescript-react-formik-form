@@ -1,7 +1,5 @@
-import * as React from 'react';
-import Button from '@mui/material/Button';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
+import * as React from 'react'; 
+import Card from '@mui/material/Card'; 
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -10,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-const cards = [1, 2, 3];
+const cards = [1, 2, 3, 4, 5, 6];
 
 const theme = createTheme();
 
@@ -38,9 +36,6 @@ return (
                     Phone Number: (949)385-9321
                     </Typography>
                 </CardContent>
-                <CardActions>
-                    <Button size="medium" variant="contained" color="error" fullWidth>Delete</Button>
-                </CardActions>
                 </Card>
             </Grid>
             ))}

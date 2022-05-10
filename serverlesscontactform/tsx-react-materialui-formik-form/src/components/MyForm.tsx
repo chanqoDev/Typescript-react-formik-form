@@ -33,8 +33,9 @@ onSubmit={(values) => {
     <div>
      <Field label="Email" name="email" placeholder="Email" component={MyField} />
     </div>
-    <Button type="submit" variant="outlined" style={{marginTop: "30px"}}>Submit</Button>
-    {/* <pre> {JSON.stringify(values, null, 2)}</pre> */}
+    <Button type="submit" variant="contained" style={{marginTop: "30px"}}>Submit</Button>
+    <Button type="submit" variant="outlined" color="error" style={{marginTop: "30px", marginLeft: "5px"}}>Delete</Button>
+    <pre> {JSON.stringify(values, null, 2)}</pre>
     </Form>
   )}
   </Formik>
