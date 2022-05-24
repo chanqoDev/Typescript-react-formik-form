@@ -1,7 +1,5 @@
 # Typescript-react-formik-form
 
-## Coding Challenge
-
 ### Part 1 - API & DB Setup
 
 The API and database table described below will implement the `Contact`
