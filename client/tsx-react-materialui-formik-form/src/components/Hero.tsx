@@ -15,7 +15,7 @@ return (
         {/* Hero unit */}
         <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6,}}>
         <Container maxWidth="sm">
-            <Typography component="h1" variant="h2" align="center" gutterBottom > Enter Customer Info </Typography>
+            <Typography component="h1" variant="h2" align="center" gutterBottom > Contact Us </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
             Enter your First Name, Last Name and the contact information.  
             Please fill out the form bellow
