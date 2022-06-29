@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-const cards = [1, 2, 3, 4, 5, 6];
+const cards = [1, 2, 3];
 
 const theme = createTheme();
 
